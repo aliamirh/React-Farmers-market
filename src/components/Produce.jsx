@@ -1,9 +1,16 @@
 import React from 'react';
 
-function Produce(){
+function Produce(props){
 
   return(
-    <div>
+    <div className='produceDiv'>
+      <h5 className='produceText'>{props.month}</h5>
+      <ul>
+      {props.selection.map((items,index) =>
+        <li key={index}>{items}</li>
+
+    )}
+      </ul>
 
     </div>
 

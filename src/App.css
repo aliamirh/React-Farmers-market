@@ -2,10 +2,29 @@
   font-family: 'Amatic SC', cursive;
 }
 
+.ProudceListDiv{
+  width: 500px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.produceDiv{
+  width: 100px;
+}
+
+.produceText{
+  font-size: 2rem;
+}
+
+li{
+   list-style-type: none;
+   font-size: 1.8rem;
+}
+
 .App {
   text-align: center;
   background-color: #9cd190;
-
 }
 
 .HeaderPadding{
@@ -24,21 +43,19 @@
 }
 .NavbarText{
   display: inline-block;
-
 }
 
 .logosDiv{
+  margin-top: 10px;
  display: inline-block;
   position:absolute;
   right: 100px;
-
 }
 
 .facebookImage{
   height: 50px;
   margin-left: 10px;
   display: inline-block;
-
 }
 
 .NavbarDiv{
@@ -46,8 +63,6 @@
   height: 60px;
   border-bottom: 2px solid gray;
   text-align: left;
-
-
 }
 
 .App-logo {

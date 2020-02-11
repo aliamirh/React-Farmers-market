@@ -274,6 +274,12 @@ function ProduceList(){
 
   return(
     <div className='ProduceListDiv'>
+    {availableProduce.map((info, index) =>
+      <Produce
+      month={info.month}
+      selection={info.selection}
+      key={index}/>
+    )}
 
     </div>
   );
