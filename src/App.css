@@ -2,15 +2,24 @@
   font-family: 'Amatic SC', cursive;
 }
 
-.ProudceListDiv{
+.ScheduleListDiv{
   width: 500px;
   text-align: left;
+  padding-left: 10px;
+  font-size: 30px;
+  line-height: 2px;
+
+}
+
+.ProuduceListDiv{
+  width: 500px;
+  text-align: right;
   padding-left: 10px;
   font-size: 30px;
 }
 
 .produceDiv{
-  width: 100px;
+  width: 500px;
 }
 
 .produceText{
@@ -81,13 +90,7 @@ width: 200px;
 margin-left: 0px;
 }
 
-.ScheduleListDiv{
-  width: 500px;
-  text-align: left;
-  padding-left: 10px;
-  font-size: 30px;
-  line-height: 2px;
-}
+
 
 .App-link {
   color: #61dafb;
